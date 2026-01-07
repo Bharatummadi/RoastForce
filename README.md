@@ -31,6 +31,12 @@ Roastforce interrupts that momentum intentionally without blocking you.
 
 ---
 
+## Demo
+
+https://github.com/user-attachments/assets/deb1f127-5311-413a-af96-7c081807bd06
+
+---
+
 ## Note
 
 This extension uses humor as a behavioral nudge. If you’re comfortable leaving future you confused, this may feel.......personal :)

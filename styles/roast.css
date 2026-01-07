@@ -1,0 +1,26 @@
+.roast-force-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c0392b; /* Burnt red */
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    font-family: 'Salesforce Sans', system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 999999;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    display: flex;
+    align-items: center;
+    border: 2px solid #e74c3c;
+    pointer-events: none; /* Let them click through their shame */
+}
+
+.roast-force-toast.show {
+    transform: translateY(0);
+    opacity: 1;
+}
